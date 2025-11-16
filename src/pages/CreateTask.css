@@ -1,0 +1,93 @@
+/* Header */
+.header {
+  background: linear-gradient(to bottom right, #af75c6, #420c58);
+  height: 80px;
+}
+.header-title {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: serif;
+  text-align: center;
+  padding: 16px;
+}
+
+/* Form Container */
+.form-container {
+  background: #dacae0;
+  padding: 24px 60px 40px 40px;
+  margin: 40px auto;
+  max-width: 700px;
+  border-radius: 16px;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* Form Title */
+.form-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* Labels */
+.label {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  display: block;
+}
+
+/* Inputs */
+.input,
+.textarea,
+.select {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  margin: 8px 0 16px 0;
+  font-size: 16px;
+  outline: none;
+}
+
+.textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Button Row */
+.button-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: 0.2s;
+}
+
+/* Cancel Button */
+.cancel-btn {
+  background: #6f2c87;
+}
+.cancel-btn:hover {
+  background: #501e63;
+  transform: scale(1.05);
+}
+
+/* Submit Button */
+.submit-btn {
+  background: #6f2c87;
+}
+.submit-btn:hover {
+  background: #501e63;
+  transform: scale(1.05);
+}

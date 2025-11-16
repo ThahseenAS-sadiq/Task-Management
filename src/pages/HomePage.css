@@ -1,0 +1,142 @@
+/* Header */
+.header {
+  background: linear-gradient(to bottom right, #af75c6, #420c58);
+  height: 80px;
+}
+.header-title {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: serif;
+  text-align: center;
+  padding: 16px;
+  color: whitesmoke;
+}
+
+/* Top Section */
+.top-section {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Search Box */
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d1d5db;
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 8px;
+}
+.search-icon {
+  font-size: 32px;
+  padding-left: 4px;
+}
+.search-input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Create Button */
+.create-btn {
+  background: linear-gradient(to right, #af75c6, #420c58);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 20px;
+}
+.create-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Table */
+.table-container {
+  width: 100%;
+  max-width: 1100px;
+  font-size: 20px;
+  margin: auto;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 700px;
+}
+
+/* Table Head */
+.thead-row {
+  background: #dacae0;
+}
+
+.th {
+  padding: 10px;
+  border: 1px solid #dacae0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.th:hover {
+  background: #bea5c7;
+}
+
+/* Table Body */
+.tbody-row:hover {
+  background: #ad92b7;
+}
+
+.td {
+  padding: 10px;
+  border: 1px solid #dacae0;
+  font-weight: 500;
+}
+
+.no-data {
+  text-align: center;
+  padding: 16px;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+/* Action Buttons */
+.action-cell {
+  text-align: center;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-right: 6px;
+}
+
+/* Edit Button */
+.edit-btn {
+  background: #6f2c87;
+}
+.edit-btn:hover {
+  background: #501e63;
+  transform: scale(1.05);
+}
+
+/* Delete Button */
+.delete-btn {
+  background: #ef4444;
+}
+.delete-btn:hover {
+  background: #dc2626;
+  transform: scale(1.05);
+}
